@@ -58,7 +58,7 @@ class SuffixTree {
         int length;
 
         std::vector<int> suff;
-        const std::string & t;
+        const std::string t;
 
         int ord(char c) const;
         void init(int vnum);
